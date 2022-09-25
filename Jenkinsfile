@@ -1,3 +1,4 @@
+//declarative pipeline
 // pipeline {
 //     agent {
 //         docker {
