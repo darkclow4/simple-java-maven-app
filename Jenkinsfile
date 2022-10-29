@@ -6,5 +6,8 @@ node {
         stage('Test') {
             sh 'mvn test'
         }
+        stage('Deploy') {
+            sh './jenkins/scripts/deliver.sh'
+        }
     }
 }
